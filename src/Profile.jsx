@@ -33,7 +33,7 @@ function Profile() {
   }, []);
 
   useEffect(()=>{
-     axios.get("http://localhost:3000/followers").then((data) => {setFollowers(data.data) ;console.log(data)}
+     axios.get("https://instaclone-db.onrender.com/followers").then((data) => {setFollowers(data.data) ;console.log(data)}
       
     ).catch(err=>console.log(err));
 
