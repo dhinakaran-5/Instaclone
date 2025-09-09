@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Profile from './Profile.jsx'
 
-import ViewStory from './viewStory.jsx'
+import ViewStory from './ViewStory.jsx'
 
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 
